@@ -1,0 +1,54 @@
+.container {
+	height: 300px;
+	width: 50%;
+	background: #9df0d9;
+	background: linear-gradient(to right bottom, #9df0d9, #fcff3d);
+	border: dashed 3px;
+	border-bottom-color: #f12296;
+	border-right-color: #f12296;
+	border-top-color: #f39dcd;
+	border-left-color: #f39dcd;
+	position: relative;
+}
+
+button {
+	height: 15%;
+	width: 25%;
+	margin: 0;
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left {
+	margin-left: 0;
+}
+
+.right {
+	margin-right: 0;
+}
+
+.slide {
+	width: 100%;
+	overflow: hidden;
+}
+
+.slide p {
+	animation: slide 5s;
+	text-align: center;
+}
+
+@keyframes slide {
+	from {
+		margin-left: 100%;
+		width: 100%;
+	}
+
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}
