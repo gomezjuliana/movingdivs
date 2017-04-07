@@ -1,5 +1,4 @@
 .container {
-	height: 300px;
 	width: 50%;
 	background: #9df0d9;
 	background: linear-gradient(to right bottom, #9df0d9, #fcff3d);
@@ -59,4 +58,8 @@ button {
 
 .smaller {
 	height: 90px;
+}
+
+.bigger {
+	height: 300px;
 }
