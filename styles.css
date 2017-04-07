@@ -21,6 +21,10 @@ button {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	border: none;
+	background: #f12296;
+	background: linear-gradient(#f39dcd, #f12296);
+	box-shadow: 5px 5px;
 }
 
 .left {
@@ -51,4 +55,8 @@ button {
 		margin-left: 0%;
 		width: 100%;
 	}
+}
+
+.smaller {
+	height: 90px;
 }
